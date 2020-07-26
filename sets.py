@@ -1,0 +1,27 @@
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+for x in thisset:
+	print(x)
+print("banana" in thisset)
+thisset.add("orange")
+print(thisset)
+thisset.update(["orange", "mango", "grapes"])
+print(thisset)
+print(len(thisset))
+thisset.remove("banana")
+print(thisset)
+thisset.discard("orange")
+print(thisset)
+x = thisset.pop()
+print(x)
+print(thisset)
+thisset.clear()
+print(thisset)
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+set3 = set1.union(set2)
+print(set3)
+set1.update(set2)
+print(set1)
+thisset = set(("apple", "banana", "cherry"))
+print(thisset)
